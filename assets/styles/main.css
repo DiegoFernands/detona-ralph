@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/wall.png);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 90px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #000000;
+    border-bottom: 5px solid #ffd700;
+}
+
+.menu-time h2 {
+    color: #ff0000;
+}
+
+.menu-time h2:nth-child(2),
+ .menu-score h2:nth-child(2) {
+    margin-top: 1rem;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    color: #ffffff;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000000 ;
+    background-color: #7fffd4;
+}
+
+.enemy {
+    background-image: url(../images/ralph.png);
+    background-size: cover;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.restart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.teste {
+    display: none;
+}
+
+.restart button {
+    height: 3rem;
+    width: 7rem;
+}
